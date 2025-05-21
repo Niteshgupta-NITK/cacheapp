@@ -31,8 +31,9 @@ graph TD;
         B -- Sync --> D[Cache Node C]
     end
 
-    B -.> E[Consistent Hash Ring]
-    C -.> E
-    D -.> E
+    B --> E[Consistent Hash Ring]
+    C --> E
+    D --> E
 
     E -->|Locate Node| B
+
