@@ -4,7 +4,7 @@ Cache++ is a blazing-fast, distributed, in-memory caching system built from scra
 
 ---
 
-## ⚙️ Core Features
+## Core Features
 
 - 🧠 **In-Memory LRU Cache** with O(1) get/set
 - 🔗 **Multi-threaded TCP Server** using POSIX sockets
@@ -16,7 +16,7 @@ Cache++ is a blazing-fast, distributed, in-memory caching system built from scra
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TD;
